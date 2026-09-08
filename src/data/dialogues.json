@@ -1,0 +1,18 @@
+{
+  "chapter1": {
+    "start": { "speaker": "イチカ", "text": "……人、いたんだ。よかった。ここ、ずっと誰もいなくて。", "choices": [
+      { "label": "ここはどこ？", "next": "where", "flag": "askedWhere" },
+      { "label": "君は誰？", "next": "who", "flag": "askedWho" }
+    ] },
+    "where": { "speaker": "イチカ", "text": "わからない。駅も病院も動いているのに、街の外へは出られないの。名前は……イチカ。そう呼んで。", "choices": [
+      { "label": "一緒に調べよう", "next": "together", "flag": "trustedIchika" },
+      { "label": "少し一人で歩きたい", "next": "alone" }
+    ] },
+    "who": { "speaker": "イチカ", "text": "イチカ。たぶん、それが私。気がついたらこの街にいて、ほかには誰もいなかった。", "choices": [
+      { "label": "一緒に調べよう", "next": "together", "flag": "trustedIchika" },
+      { "label": "街を見て回る", "next": "alone" }
+    ] },
+    "together": { "speaker": "イチカ", "text": "うん。まずは駅のほうへ行ってみよう。何か記録が残っているかもしれない。", "choices": [] },
+    "alone": { "speaker": "イチカ", "text": "……わかった。でも、遠くへ行くなら声をかけて。ここは静かすぎるから。", "choices": [] }
+  }
+}
